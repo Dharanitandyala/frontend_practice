@@ -1,0 +1,11 @@
+body{
+    background-color: #83d0c9;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    background-color: #f4b6c2;
+}
