@@ -4,8 +4,20 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 200px;
 }
 .boxes{
     background-color: #f4b6c2;
+    height:150px;
+    width: 100%;
+    max-width: 400px; /* Slightly wider than home card for content density */
+    padding: 40px 32px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0)
+}
+.boxname{
+    text-align: center;
 }
