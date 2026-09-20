@@ -3,21 +3,37 @@ body{
 }
 .container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 20px;
     padding-top: 200px;
 }
-.boxes{
-    background-color: #f4b6c2;
-    height:150px;
-    width: 100%;
-    max-width: 400px; /* Slightly wider than home card for content density */
-    padding: 40px 32px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0)
+.Dbox{
+    height:200px;
+    width:200px;
+    background-color: palevioletred;
+    background-image:url('dog.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.boxname{
-    text-align: center;
+.Cbox{
+    height:200px;
+    width:200px;
+    background-color: palevioletred;
+    background-image:url('cat.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Rbox{
+    height:200px;
+    width:200px;
+    background-color: palevioletred;
+    background-image:url('rabbit.jpeg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+    display: block;
 }
